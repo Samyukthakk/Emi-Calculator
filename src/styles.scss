@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+
+.loan-calculator{
+    font-family: "Roboto",sans-serif;
+    width: 950px;
+    margin: 24px auto;
+    border-radius: 5px;
+    color: darkblue;
+}
+
+.loan-calculator .top {
+    background-color: cornflowerblue;
+    color: black;
+    padding: 32px;
+}
+
+.loan-calculator .top h2 {
+    margin-top: 0px;
+}
+
+.loan-calculator .cal-btn {
+    color: red;
+    border-radius: 5px;
+}
+
+.loan-calculator .results {
+   color:darkslateblue;
+   font-size: 13px;
+}
+.loan-calculator .results .resultvalue{
+    color:darkslateblue;
+    font-size: 20px;
+    font-weight: bold;
+ }
+.errorcheck {
+    font-size: 11px;
+    color: red;
+}
+
+.form-container {
+    display: flex;
+    gap: 7px;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.message-container{
+    display: flex;
+    border: solid #cdcdcd 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 12px;
+}
+
+list {
+    margin-left: 20px;
+}
+.listheader {
+    margin: 10px 55px ;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+@media(max-width: 950px) {
+    .loan-calculator {
+        width: 90%;
+    }
+    .loan-calculator form {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
